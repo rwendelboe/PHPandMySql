@@ -1,0 +1,70 @@
+/*
+Complimentary Color Scheme
+Base	Greyed	Bold	Light	Lightest
+9EA2BE	7D7F8F	333C7C	C2C6DF	CACCDF
+FFF1CD	BFB8A3	A68A43	FFF5DA	FFF7E4
+*/
+
+body {
+	background-color: #55AA55;
+	background-image: url("bike_clipart.png");
+	background-position: 75% 15%;
+	background-repeat: no-repeat;
+}
+
+label {
+	width: 128px;
+	display:inline-block;
+	text-align: right;
+	padding-right: 12px;
+}
+input[type = "text"]{
+ 	
+	text-align: left;
+	background-color: #CEDFCE;
+	margin-top: 8px;
+	margin-right: 24px;
+}
+.timeInterval input[type = "text"]{
+	width: 32px;
+	text-align: left;
+	background-color: #CEDFCE;
+
+}
+.sort {
+	
+}
+
+.submit input[type = "submit"]{
+	width: 120px;
+	height: 35px;
+	font-size: 18px;
+    margin-top: 14px;
+	background-color: #CEDFCE;
+	
+}
+.orderfirst input[type = "submit"]{
+	width: 92px;
+}
+.orderlast input[type = "submit"]{
+	width: 92px;
+}
+input[type = "submit"]{
+	height:  25px;
+	position: center;
+	margin-top: 14px;
+	background-color: #CEDFCE;
+
+}
+
+span {
+	color:#C70404;
+	padding-left: 6px;
+}
+table {
+    border-collapse: collapse;
+}
+td, th
+{
+    border: 2px solid #EFEFDE;
+}
